@@ -1,7 +1,7 @@
 //hexaspace computer algorithm 01
 //insertion sort - decreasing order
 //input : first [n] keys, next [ , , ,...] nums
-//output : sorting numbers
+//output : sorted numbers
 
 #include <iostream>
 #include <stdio.h>
@@ -34,7 +34,8 @@ int main() {
 	//출력
 	cout << "result : \n";
 	for (i = 0; i < num; ++i) {
-		printf("%d\n", list[i]);
+		cout << list[i] << "\n";
+		//printf("%d\n", list[i]);
 
 	}
 	delete[] list;	//동적할당 배열 해제
